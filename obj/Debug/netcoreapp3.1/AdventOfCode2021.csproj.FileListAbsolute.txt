@@ -1,0 +1,12 @@
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\netcoreapp3.1\AdventOfCode2021.exe
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\netcoreapp3.1\AdventOfCode2021.deps.json
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\netcoreapp3.1\AdventOfCode2021.runtimeconfig.json
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\netcoreapp3.1\AdventOfCode2021.runtimeconfig.dev.json
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\netcoreapp3.1\AdventOfCode2021.dll
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\netcoreapp3.1\AdventOfCode2021.pdb
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\netcoreapp3.1\AdventOfCode2021.AssemblyInfoInputs.cache
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\netcoreapp3.1\AdventOfCode2021.AssemblyInfo.cs
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\netcoreapp3.1\AdventOfCode2021.csproj.CoreCompileInputs.cache
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\netcoreapp3.1\AdventOfCode2021.dll
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\netcoreapp3.1\AdventOfCode2021.pdb
+C:\Users\marcelod\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\netcoreapp3.1\AdventOfCode2021.genruntimeconfig.cache
