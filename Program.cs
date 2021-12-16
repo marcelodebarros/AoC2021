@@ -70,6 +70,10 @@ namespace AdventOfCode2021
             Day15 day15 = new Day15();
             Console.WriteLine("Day 15, Puzzle 1: {0}", day15.Puzzle1("input_day15_puzzle1.txt"));
             Console.WriteLine("Day 15, Puzzle 2: {0}", day15.Puzzle2("input_day15_puzzle2.txt"));
+
+            Day16 day16 = new Day16();
+            Console.WriteLine("Day 16, Puzzle 1: {0}", day16.Puzzle1("input_day16_puzzle1.txt"));
+            Console.WriteLine("Day 16, Puzzle 2: {0}", day16.Puzzle2("input_day16_puzzle2.txt"));
         }
     }
 }
