@@ -65,7 +65,7 @@ namespace AdventOfCode2021
 
             Day14 day14 = new Day14();
             Console.WriteLine("Day 14, Puzzle 1: {0}", day14.Puzzle1("input_day14_puzzle1.txt"));
-            Console.WriteLine("Day 14, Puzzle 2: {0} (WRONG!!)", day14.Puzzle2("input_day14_puzzle2.txt")); //FAILED!!!
+            Console.WriteLine("Day 14, Puzzle 2: {0}", day14.Puzzle2("input_day14_puzzle2.txt"));
 
             Day15 day15 = new Day15();
             Console.WriteLine("Day 15, Puzzle 1: {0}", day15.Puzzle1("input_day15_puzzle1.txt"));

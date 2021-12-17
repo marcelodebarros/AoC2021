@@ -67,7 +67,7 @@ namespace AdventOfCode2021
             }
             sr.Close();
 
-            return ProcessPolymer2(inputString, polymerTemplate, 3);
+            return ProcessPolymer2(inputString, polymerTemplate, 40);
         }
 
         private long ProcessPolymer2(string input, 
@@ -100,12 +100,12 @@ namespace AdventOfCode2021
             for (int i = 1; i < steps; i++)
             {
                 Hashtable allPairsClone = (Hashtable)allPairs.Clone();
+                Hashtable tempht = new Hashtable();
                 foreach (string pair in allPairsClone.Keys)
                 {
                     if ((long)allPairsClone[pair] > 0)
                     {
                         long temp = (long)allPairsClone[pair];
-                        //allPairs[pair] = 0L;
 
                         string val = (string)polymeterTemplate[pair];
                         string pair1 = pair[0].ToString() + val;
@@ -114,11 +114,12 @@ namespace AdventOfCode2021
                         string[] listOfPairs = { pair1, pair2 };
                         foreach (string singlePair in listOfPairs)
                         {
-                            if (!allPairs.ContainsKey(singlePair)) allPairs.Add(singlePair, 0L);
-                            allPairs[singlePair] = (long)allPairs[singlePair] + temp;
+                            if (!tempht.ContainsKey(singlePair)) tempht.Add(singlePair, 0L);
+                            tempht[singlePair] = (long)tempht[singlePair] + temp;
                         }
                     }
                 }
+                allPairs = (Hashtable)tempht.Clone();
             }
 
             Hashtable allCounts = new Hashtable();
